@@ -1,0 +1,9 @@
+command used to compile -> gcc -o myprogram main.c car.c
+I ran the program afterwards using -> ./ myprogram
+
+I have all the function declarations in the header file. I call them in the car.c file to initialize them. I use them in the main.c file to run the program.
+
+On the top and on the bottom of the header file I have safety declarations. They make sure that the header file won't be called twice.
+
+I use #include in the car.c file to call all the declarations of the functions.
+Then I use #include in the main.c file to actually use the functions. I need only the two source files to compile because all three are linked together. I need to compile the functions with the main file, but I don't need to call their declarations because they are already included in the code.
