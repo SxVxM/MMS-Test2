@@ -20,7 +20,7 @@ int main(){
     };
     for(int i = 0; i < COUNT; i++){
         randomName(cars[i].brand);
-        cars[i].speed = randint(100, 255);
+        cars[i].speed = randint(100, 300);
         cars[i].price = randReal(1000.0, 100000.0);
     }
     printf("Pick a number from 0 to 5 to sort:\n");
